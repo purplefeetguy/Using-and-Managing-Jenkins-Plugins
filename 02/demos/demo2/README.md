@@ -4,6 +4,8 @@ Built from [this Dockerfile](../jenkins/core/Dockerfile), standard Jenkins 2.204
 
 ```
 docker run -d -p 8082:8080 --name jenkins2 sixeyed/psod-jenkins:2.204.4
+
+docker run -p 8082:8080 -d --network jenkins -v plugins2_jenkins_home:/data --name jenkins-controller-plugins jenkins/jenkins:lts
 ```
 
 Browse to http://localhost:8082 & sign in
