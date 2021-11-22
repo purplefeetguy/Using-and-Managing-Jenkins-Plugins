@@ -5,7 +5,7 @@ Built from [this Dockerfile](../jenkins/bare/Dockerfile), standard Jenkins 2.204
 ```
 docker run -d -p 8084:8080 --name jenkins4 sixeyed/psod-jenkins:2.204.4
 
-docker run -p 8084:8080 -d --network jenkins -v plugins4_jenkins_home:/data --name jenkins-controller-plugins jenkins/jenkins:lts
+docker run -p 8084:8080 -d --network jenkins -v plugins4_jenkins_home:/data --name jenkins-controller-plugins4 jenkins/jenkins:lts
 
 ```
 
