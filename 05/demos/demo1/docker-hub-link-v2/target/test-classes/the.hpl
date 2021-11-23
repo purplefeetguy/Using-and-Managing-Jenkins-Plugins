@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: docker-hub-link
+Long-Name: Docker Hub Link
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.0
+Hudson-Version: 2.164.1
+Jenkins-Version: 2.164.1
+Plugin-Dependencies: structs:1.20
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/plugin-pom/docker-hub-link
+Libraries: /home/purplefeetguy/Development/Jenkins-Stuff/Using-and-Man
+ aging-Jenkins-Plugins/05/demos/demo1/docker-hub-link-v2/src/main/reso
+ urces,/home/purplefeetguy/Development/Jenkins-Stuff/Using-and-Managin
+ g-Jenkins-Plugins/05/demos/demo1/docker-hub-link-v2/target/classes
+Resource-Path: /home/purplefeetguy/Development/Jenkins-Stuff/Using-and
+ -Managing-Jenkins-Plugins/05/demos/demo1/docker-hub-link-v2/src/main/
+ webapp
+
